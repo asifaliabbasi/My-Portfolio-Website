@@ -764,6 +764,7 @@ section,
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  
 }
 
 .portfolio .portfolio-filters li {
@@ -778,6 +779,7 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
+  
 }
 
 .portfolio .portfolio-filters li:hover,
@@ -803,7 +805,11 @@ section,
 
 .portfolio .portfolio-item {
   position: relative;
+  border: 2px solid rgb(178, 168, 168);
   overflow: hidden;
+  width: 30%;
+  padding: 0;
+  margin: 2px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1152,10 +1158,11 @@ section,
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+
 }
 
 .portfolio-details .swiper-wrapper {
-  height: auto;
+  height: 100vh;
 }
 
 .portfolio-details .swiper-button-prev,
